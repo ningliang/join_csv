@@ -1,0 +1,10 @@
+joins an arbitrary number of csv files together on a shared column
+  csv files should have a header row
+  assumes only one row for each join_value per file
+  discards join values unless they have a row in every file
+
+usage
+  ruby "key" file1 file2 ...
+
+TODO
+  support for proper join when more than one row exists per join_value in one or more files
